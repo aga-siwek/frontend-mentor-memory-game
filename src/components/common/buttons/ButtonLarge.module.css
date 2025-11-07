@@ -1,0 +1,32 @@
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc(12rem / 16);
+  font-size: calc(18rem / 16);
+  line-height: 125%;
+  border-radius: 26px;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.orange_color {
+  background-color: var(--color_10);
+  color: var(--color_3);
+}
+
+.orange_color:hover {
+  background-color: var(--color_11);
+}
+
+.grey_color {
+  background-color: var(--color_3);
+  color: var(--color_6);
+}
+
+.grey_color:hover {
+  background-color: var(--color_12);
+  color: var(--color_4);
+}

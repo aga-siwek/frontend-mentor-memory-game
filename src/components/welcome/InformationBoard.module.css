@@ -1,0 +1,73 @@
+.info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(40rem / 16);
+  width: 100%;
+  background-color: var(--color_3);
+  border-radius: 10px;
+  padding: calc(24rem / 16);
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(24rem / 16);
+}
+
+.setting_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(8rem / 16);
+}
+
+.setting_box_header {
+  font-size: calc(15rem / 16);
+  line-height: 125%;
+  color: var(--color_7);
+}
+
+.single_setting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: calc(8rem / 16);
+}
+
+.setting_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: calc(11rem / 16) calc(26rem / 16);
+  border-radius: 26px;
+  color: var(--color_3);
+
+  font-size: calc(16rem / 16);
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+
+.setting_grid_button {
+}
+
+.active_file {
+  background-color: var(--color_6);
+}
+.inactive_file {
+  background-color: var(--color_8);
+}
+
+.inactive_file:hover {
+  background-color: var(--color_12);
+}
+.setting_theme_button {
+  width: 50%;
+}

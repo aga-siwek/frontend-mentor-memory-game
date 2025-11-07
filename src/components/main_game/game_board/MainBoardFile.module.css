@@ -1,0 +1,80 @@
+.main_board_file_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_board_file_container_small {
+  border-radius: 59px;
+  border: 0;
+  width: calc(79rem / 16);
+  height: calc(79rem / 16);
+}
+
+.main_board_file_container_big {
+  border-radius: 41px;
+  border: 0;
+  width: calc(46rem / 16);
+  height: calc(46rem / 16);
+}
+
+.main_board_file_content_small {
+  font-weight: bold;
+  font-size: calc(40rem / 16);
+  color: var(--color_4);
+  line-height: 125%;
+}
+
+.main_board_file_content_big {
+  font-weight: bold;
+  font-size: calc(24rem / 16);
+  color: var(--color_4);
+  line-height: 125%;
+}
+
+.icon_svg {
+  fill: var(--color_4);
+  stroke: var(--color_4);
+}
+.icon_svg_small {
+  width: calc(35rem / 16);
+  height: calc(35rem / 16);
+}
+
+.icon_svg_big {
+  width: calc(25rem / 16);
+  height: calc(25rem / 16);
+}
+
+.is_not_found {
+}
+.is_not_clicked {
+  background: var(--color_5);
+  cursor: pointer;
+}
+.content_is_not_found {
+}
+.content_is_not_clicked {
+  display: none;
+}
+.content_is_found {
+  display: block;
+  cursor: none;
+}
+.is_clicked {
+  background: var(--color_7);
+}
+.content_is_clicked {
+  display: block;
+}
+.is_clicked_and_found {
+}
+.is_not_clicked_and_found {
+}
+.is_found {
+  background: var(--color_8);
+}
+.is_clicked_and_found {
+  background: var(--color_10);
+}

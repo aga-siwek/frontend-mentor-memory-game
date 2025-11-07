@@ -1,0 +1,25 @@
+.menu_background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color_5_transparent);
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: calc(24rem / 16);
+}
+
+.menu_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color_4);
+  width: 100%;
+  padding: calc(24rem / 16);
+  border-radius: 10px;
+  border: 0;
+  gap: calc(16rem / 16);
+}

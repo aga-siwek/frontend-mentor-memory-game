@@ -1,0 +1,42 @@
+.game_summary_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: calc(24rem / 16);
+  width: 100%;
+}
+
+.game_summary_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color_9);
+  padding: calc(10rem / 16) calc(13rem / 16);
+  width: 100%;
+  border-radius: calc(5rem / 16);
+  border: 0;
+  height: calc(70rem / 16);
+  color: var(--color_7);
+}
+
+.game_summary_box_header {
+  font-size: calc(15rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.game_summary_box_result {
+  font-size: calc(24rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.activePlayer {
+  background: var(--color_10);
+  color: var(--color_4);
+}
+
+.unactivePlayer {
+}

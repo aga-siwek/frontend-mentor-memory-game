@@ -1,0 +1,118 @@
+.summary_background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color_5_transparent);
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: calc(24rem / 16);
+}
+.summary_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color_4);
+  width: 100%;
+  padding: calc(24rem / 16);
+  border-radius: 10px;
+  border: 0;
+  gap: calc(24rem / 16);
+}
+
+.summary_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(8rem / 16);
+}
+
+.summary_top_header {
+}
+
+.header_text {
+  color: var(--color_5);
+  font-size: calc(24rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.body_text {
+  color: var(--color_7);
+  font-size: calc(14rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+}
+.summary_top_body {
+}
+.body_text {
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(8rem / 16);
+  width: 100%;
+}
+.result_box_win {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(12rem / 16) calc(16rem / 16);
+  background: var(--color_5);
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+}
+.result_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(12rem / 16) calc(16rem / 16);
+  background: var(--color_9);
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+}
+
+.result_box_header_win {
+  font-size: calc(14rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+  color: var(--color_4);
+}
+.result_box_text_win {
+  font-size: calc(20rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+  color: var(--color_4);
+}
+
+.result_box_header {
+  font-size: calc(14rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+  color: var(--color_7);
+}
+.result_box_text {
+  font-size: calc(20rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+  color: var(--color_6);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(16rem / 16);
+  width: 100%;
+}

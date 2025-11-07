@@ -1,0 +1,5 @@
+.logo_container {
+  font-size: calc(32rem / 16);
+  line-height: 125%;
+  color: var(--color_5);
+}

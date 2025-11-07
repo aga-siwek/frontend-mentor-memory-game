@@ -1,0 +1,34 @@
+:root {
+  /*white*/
+  --color_1: hsl(0, 100%, 100%);
+  /*black*/
+  --color_2: hsl(0, 0%, 0%);
+  /*grey 100*/
+  --color_3: hsl(0, 0%, 95%);
+  /*grey 50*/
+  --color_4: hsl(0, 0%, 99%);
+  /*blue 950*/
+  --color_5: hsl(206, 45%, 15%);
+  /*blue 950 transparent*/
+  --color_5_transparent: hsla(206, 45%, 15%, 0.5);
+  /*blue 800*/
+  --color_6: hsl(205, 30%, 27%);
+  /*blue 400*/
+  --color_7: hsl(203, 22%, 55%);
+  /*blue 300*/
+  --color_8: hsl(203, 28%, 79%);
+  /*blue 100*/
+  --color_9: hsl(203, 25%, 90%);
+  /*orange 400*/
+  --color_10: hsl(37, 98%, 54%);
+  /*orange 300*/
+  --color_11: hsl(36, 100%, 65%);
+  /*blue 350*/
+  --color_12: hsl(205, 37%, 55%);
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
