@@ -1,65 +1,56 @@
-# Hangmen Game
+# Memory Game
 
 ## Project Description
 
 ### Try Game:
+![memorygr.png](src/assets/memorygr.png)
 
-![hm_qr.png](src/assets/hm_qr.png)
 
-https://frontend-mentor-hangman-game-theta.vercel.app/
+https://frontend-mentor-memory-game.vercel.app/
 
 ## Description
 
-A modern web implementation of the classic Hangman game.
-Players can select categories, guess letters, and try to complete the hidden word before running out of attempts.
+A fun and engaging online memory game where players flip cards to find matching pairs. 
+Test and improve your concentration, attention, and short-term memory as you try to match all pairs 
+in the fewest moves or fastest time. Suitable for all ages and playable on any device.
 
 ### State machine
 
-![hm_8.jpg](src/assets/hm_8.jpg)
+![memoryM.png](src/assets/memoryM.png)
 
 ### View
 
 Welcome
-![hm1.png](src/assets/hm1.png)
+![memory (7).png](src/assets/memory%20%287%29.png)
 
-How to play
-![hm_10.png](src/assets/hm_10.png)
+Game - grid 4x4, number, 1 player
+![memory (5).png](src/assets/memory%20%285%29.png)
 
-Category
-![hm2.png](src/assets/hm2.png)
+Game - grid 6x6, icon, 3 players
+![memory (3).png](src/assets/memory%20%283%29.png)
 
-Game
-![hm3.png](src/assets/hm3.png)
 
 Result
-![hm4.png](src/assets/hm4.png)
-![hm5.png](src/assets/hm5.png)
-![hm6.png](src/assets/hm6.png)
-![hm_9.png](src/assets/hm_9.png)
+![memory (1).png](src/assets/memory%20%281%29.png)
+![memory (2).png](src/assets/memory%20%282%29.png)
 
-Pause
-![hm_7.png](src/assets/hm_7.png)
+Pause (only mobile version)
+![memory (8).png](src/assets/memory%20%288%29.png)
 
 #### Gameplay Overview
 
-- Learn how to play Hangman from the main menu.
-- Start a game and choose a category.
-- Play with a random word selected from that category.
-- See the hidden word displayed as blanks, revealing letters as you guess correctly.
-- See your current health decrease with each incorrect letter guess.
-- Win the game by completing the entire word.
-- Lose the game after six incorrect guesses.
-- Pause the game to continue, change categories, or quit.
-- Experience an adaptive interface that adjusts to any screen size.
-- View hover and focus states for all interactive elements.
-- Navigate the entire game using only the keyboard.
+- Play the Memory game either solo or multiplayer (up to 4 players)
+- Set the theme to use numbers or icons within the tiles
+- Choose to play on either a 6x6 or 4x4 grid
+- View the optimal layout for the game depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ## Development
 
 How to install project:
 
 ```
-git clone https://github.com/aga-siwek/frontend-mentor-hangman-game
+git clone https://github.com/aga-siwek/frontend-mentor-memory-game
 cd hangman-game
 npm install
 npm run dev
