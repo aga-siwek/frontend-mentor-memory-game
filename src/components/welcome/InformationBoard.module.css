@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   gap: calc(24rem / 16);
+  width: 100%;
 }
 
 .setting_box {
@@ -24,12 +25,14 @@
   align-items: center;
   justify-content: center;
   gap: calc(8rem / 16);
+  width: 100%;
 }
 
 .setting_box_header {
   font-size: calc(15rem / 16);
   line-height: 125%;
   color: var(--color_7);
+  width: 100%;
 }
 
 .single_setting {
@@ -38,6 +41,7 @@
   align-items: center;
   justify-content: center;
   gap: calc(8rem / 16);
+  width: 100%;
 }
 
 .setting_button {
@@ -48,11 +52,11 @@
   padding: calc(11rem / 16) calc(26rem / 16);
   border-radius: 26px;
   color: var(--color_3);
-
   font-size: calc(16rem / 16);
   font-weight: bold;
   border: 0;
   cursor: pointer;
+  width: 100%;
 }
 
 .setting_grid_button {
@@ -71,3 +75,33 @@
 .setting_theme_button {
   width: 50%;
 }
+
+@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {
+  .info_container {
+    padding: calc(12rem / 16);
+    gap: calc(12rem / 16);}
+
+  .setting {
+    gap: calc(12rem / 16);
+  }
+  }
+
+@media (min-width: 768px) {
+  .info_container {
+    width: calc(654rem/16)
+  }
+  .setting_box_header {
+    font-size: calc(20rem / 16);
+  }
+  .single_setting {
+    gap: calc(32rem / 16);
+  }
+  .setting_box {
+    gap: calc(16rem / 16);
+  }
+  .setting_button {
+    padding: calc(11rem / 16) calc(26rem / 16);
+    font-size: calc(26rem / 16);
+  }
+}
+@media (min-width: 1440px) {}

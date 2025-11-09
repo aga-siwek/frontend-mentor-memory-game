@@ -8,7 +8,16 @@ function GameSummary({
   activePlayer,
   gameMoves,
 }) {
-  console.log("activ player from game summary", activePlayer);
+  const secondsToTime = () => {
+    const hrs = Math.floor(gameTime / 3600);
+    const mins = Math.floor((gameTime % 3600) / 60);
+    const secs = gameTime % 60;
+    const time = [hrs, mins, secs]
+      .map((v) => String(v).padStart(2, "0"))
+      .join(":");
+
+    return <p>{time}</p>;
+  };
   const seeActivePlayer1 = () => {
     if (activePlayer === ACTIVE_PLAYER.PLAYER1) return styles.activePlayer;
     else {
@@ -37,13 +46,15 @@ function GameSummary({
   const gameContainer = () => {
     if (gamePlayers === "1") {
       return (
-        <div className={styles.game_summary_container}>
-          <div className={styles.game_summary_box}>
+        <div className={styles.game_summary_container_one_player}>
+          <div className={styles.game_summary_box_one_player}>
             <div className={styles.game_summary_box_header}>Time</div>
-            <div className={styles.game_summary_box_result}>{gameTime}</div>
+            <div className={styles.game_summary_box_result}>
+              {secondsToTime()}
+            </div>
           </div>
 
-          <div className={styles.game_summary_box}>
+          <div className={styles.game_summary_box_one_player}>
             <div className={styles.game_summary_box_header}>Moves</div>
             <div className={styles.game_summary_box_result}>{gameMoves}</div>
           </div>

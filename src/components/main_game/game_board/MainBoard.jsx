@@ -1,6 +1,6 @@
 import styles from "./MainBoard.module.css";
 import MainBoardFile from "./MainBoardFile.jsx";
-import { GRID_SIZE, makeMove } from "../../../store/gameSlice.js";
+import { GRID_SIZE } from "../../../store/gameSlice.js";
 
 function MainBoard({
   board,

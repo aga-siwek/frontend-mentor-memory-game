@@ -6,3 +6,12 @@
   gap: calc(48rem / 16);
   padding: calc(24rem / 16);
 }
+
+@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {
+  .welcome_container {
+    gap: calc(8rem / 16);
+    padding: calc(24rem / 16);
+  }
+}
+@media (min-width: 768px) {}
+@media (min-width: 1440px) {}

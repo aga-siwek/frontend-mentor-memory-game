@@ -1,5 +1,6 @@
 import styles from "./Summary.module.css";
 import ButtonLarge from "../../common/buttons/ButtonLarge.jsx";
+import ButtonMedium from "../../common/buttons/ButtonMedium.jsx";
 
 function Summary({
   onRestartGame,
@@ -16,6 +17,17 @@ function Summary({
   const sortedDesc = Object.fromEntries(
     Object.entries(score).sort(([, a], [, b]) => b - a),
   );
+
+  const secondsToTime = () => {
+    const hrs = Math.floor(gameTime / 3600);
+    const mins = Math.floor((gameTime % 3600) / 60);
+    const secs = gameTime % 60;
+    const time = [hrs, mins, secs]
+        .map((v) => String(v).padStart(2, "0"))
+        .join(":");
+
+    return <p>{time}</p>;
+  };
 
   const showHeader = () => {
     if (gamePlayers === "1") {
@@ -86,7 +98,7 @@ function Summary({
         <div className={styles.result}>
           <div className={styles.result_box}>
             <div className={styles.result_box_header}>Time Elapsed</div>
-            <div className={styles.result_box_text}>{gameTime}</div>
+            <div className={styles.result_box_text}>{secondsToTime()}</div>
           </div>
 
           <div className={styles.result_box}>
@@ -112,7 +124,7 @@ function Summary({
           <div className={styles.summary_top_body}>{showBody()}</div>
         </div>
         {showResult()}
-        <div className={styles.buttons}>
+        <div className={styles.buttons_mobile}>
           <ButtonLarge
             text="Restart"
             color="orange"
@@ -122,6 +134,18 @@ function Summary({
             text="Setup New Game"
             color="grey"
             onClick={() => onNewGame()}
+          />
+        </div>
+        <div className={styles.buttons_other_dev}>
+          <ButtonMedium
+              text="Restart"
+              color="orange"
+              onClick={() => onRestartGame()}
+          />
+          <ButtonMedium
+              text="Setup New Game"
+              color="grey"
+              onClick={() => onNewGame()}
           />
         </div>
       </div>

@@ -10,13 +10,11 @@ import {
   makeMove,
   pauseGame,
   restartGame,
-  startGame,
 } from "../../store/gameSlice.js";
 import Menu from "./menu/Menu.jsx";
 
 function MainGame() {
   const dispatch = useDispatch();
-  const gameTheme = useSelector((state) => state.game.gameTheme);
   const gamePlayers = useSelector((state) => state.game.gamePlayers);
   const gameTime = useSelector((state) => state.game.player1TimeSec);
   const gameMoves = useSelector((state) => state.game.player1Moves);
@@ -28,7 +26,6 @@ function MainGame() {
   const foundPairs = useSelector((state) => state.game.foundPairs);
   const firstClick = useSelector((state) => state.game.firstClick);
   const secondClick = useSelector((state) => state.game.secondClick);
-  console.log("time", gameTime);
 
   const onRestartGame = () => {
     dispatch(restartGame());
@@ -60,6 +57,8 @@ function MainGame() {
         gameTime={gameTime}
         activePlayer={activePlayer}
         onPauseGame={onPauseGame}
+        onRestartGame={onRestartGame}
+        onNewGame={onNewGame}
         foundPairs={foundPairs}
         firstClick={firstClick}
         secondClick={secondClick}

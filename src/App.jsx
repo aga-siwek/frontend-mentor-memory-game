@@ -2,7 +2,7 @@ import "./App.css";
 import { GAME_STATE } from "./store/gameSlice.js";
 import Welcome from "./components/welcome/Welcome.jsx";
 import MainGame from "./components/main_game/MainGame.jsx";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 function App() {
   const gameState = useSelector((state) => state.game.gameState);

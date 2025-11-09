@@ -10,3 +10,23 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: calc(8rem / 16);
 }
+
+@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {
+  .main_board_container_big {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: calc(12rem / 16);
+  }
+}
+@media (min-width: 768px) {
+  .main_board_container_small {
+    width: calc(574rem / 16);
+  }
+
+  .main_board_container_big {
+    width: calc(574rem / 16);
+  }
+
+}
+@media (min-width: 1440px) {}
