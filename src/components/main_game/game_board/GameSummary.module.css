@@ -64,7 +64,7 @@
 .unactivePlayer {
 }
 
-@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {}
+
 @media (min-width: 768px) {
   .game_summary_container_one_player {
     width: calc(574rem / 16);
@@ -87,9 +87,11 @@
   }
 
   .game_summary_box_header {
-    font-size: calc(18rem / 16);}
+    font-size: calc(18rem / 16);
+  }
 
   .game_summary_box_result {
-    font-size: calc(24rem / 16);}
+    font-size: calc(24rem / 16);
+  }
 }
-@media (min-width: 1440px) {}
+

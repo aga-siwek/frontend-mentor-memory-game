@@ -117,13 +117,12 @@
   width: 100%;
 }
 .buttons_other_dev {
-  display: none
+  display: none;
 }
 
-@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {}
 @media (min-width: 768px) {
   .summary_container {
-    width: calc(654rem/16);
+    width: calc(654rem / 16);
     padding: calc(55rem / 16);
     gap: calc(56rem / 16);
   }
@@ -149,8 +148,6 @@
   }
   .buttons_mobile {
     display: none;
-
-
   }
   .buttons_other_dev {
     display: flex;
@@ -161,4 +158,4 @@
     width: 100%;
   }
 }
-@media (min-width: 1440px) {}
+

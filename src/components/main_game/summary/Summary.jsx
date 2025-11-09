@@ -23,8 +23,8 @@ function Summary({
     const mins = Math.floor((gameTime % 3600) / 60);
     const secs = gameTime % 60;
     const time = [hrs, mins, secs]
-        .map((v) => String(v).padStart(2, "0"))
-        .join(":");
+      .map((v) => String(v).padStart(2, "0"))
+      .join(":");
 
     return <p>{time}</p>;
   };
@@ -138,14 +138,14 @@ function Summary({
         </div>
         <div className={styles.buttons_other_dev}>
           <ButtonMedium
-              text="Restart"
-              color="orange"
-              onClick={() => onRestartGame()}
+            text="Restart"
+            color="orange"
+            onClick={() => onRestartGame()}
           />
           <ButtonMedium
-              text="Setup New Game"
-              color="grey"
-              onClick={() => onNewGame()}
+            text="Setup New Game"
+            color="grey"
+            onClick={() => onNewGame()}
           />
         </div>
       </div>

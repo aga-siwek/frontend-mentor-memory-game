@@ -6,12 +6,11 @@
   width: 100%;
 }
 .game_button_mobile {
-
 }
 .game_buttons_other_dev {
   display: none;
 }
-@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {}
+
 @media (min-width: 768px) {
   .game_header_container {
     width: calc(688rem / 16);
@@ -21,7 +20,7 @@
   }
   .game_buttons_other_dev {
     display: flex;
-    gap: calc(16rem/16);
+    gap: calc(16rem / 16);
   }
 }
-@media (min-width: 1440px) {}
+

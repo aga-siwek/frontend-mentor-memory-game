@@ -1,41 +1,39 @@
 .button_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: calc(10rem / 16) calc(18rem / 16);
-    font-size: calc(16rem / 16);
-    font-weight: bold;
-    line-height: 125%;
-    border-radius: 26px;
-    border: 0;
-    cursor: pointer;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc(10rem / 16) calc(18rem / 16);
+  font-size: calc(16rem / 16);
+  font-weight: bold;
+  line-height: 125%;
+  border-radius: 26px;
+  border: 0;
+  cursor: pointer;
+  width: 100%;
 }
 
 .orange_color {
-    background-color: var(--color_10);
-    color: var(--color_3);
+  background-color: var(--color_10);
+  color: var(--color_3);
 }
 
 .orange_color:hover {
-    background-color: var(--color_11);
+  background-color: var(--color_11);
 }
 
 .grey_color {
-    background-color: var(--color_3);
-    color: var(--color_6);
+  background-color: var(--color_3);
+  color: var(--color_6);
 }
 
 .grey_color:hover {
-    background-color: var(--color_12);
-    color: var(--color_4);
+  background-color: var(--color_12);
+  color: var(--color_4);
 }
 
-@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {}
 @media (min-width: 768px) {
-    .button_container {
-        padding: calc(14rem / 16) calc(24rem / 16);
-        font-size: calc(20rem / 16);
-    }
+  .button_container {
+    padding: calc(14rem / 16) calc(24rem / 16);
+    font-size: calc(20rem / 16);
+  }
 }
-@media (min-width: 1440px) {}

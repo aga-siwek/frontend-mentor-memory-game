@@ -3,24 +3,27 @@
 ## Project Description
 
 ### Try Game:
+
 ![hm_qr.png](src/assets/hm_qr.png)
 
 https://frontend-mentor-hangman-game-theta.vercel.app/
 
 ## Description
+
 A modern web implementation of the classic Hangman game.
 Players can select categories, guess letters, and try to complete the hidden word before running out of attempts.
 
 ### State machine
+
 ![hm_8.jpg](src/assets/hm_8.jpg)
 
 ### View
+
 Welcome
 ![hm1.png](src/assets/hm1.png)
 
 How to play
 ![hm_10.png](src/assets/hm_10.png)
-
 
 Category
 ![hm2.png](src/assets/hm2.png)
@@ -38,6 +41,7 @@ Pause
 ![hm_7.png](src/assets/hm_7.png)
 
 #### Gameplay Overview
+
 - Learn how to play Hangman from the main menu.
 - Start a game and choose a category.
 - Play with a random word selected from that category.
