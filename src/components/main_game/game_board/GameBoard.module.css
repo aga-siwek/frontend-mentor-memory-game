@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: calc(80rem / 16);
+  gap: calc(48rem / 16);
 }
 
 @media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {
