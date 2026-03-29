@@ -9,7 +9,7 @@
 
 @media (min-width: 768px) {
   .game_board_container {
-    gap: calc(48rem / 16);
+    gap: calc(24rem / 16);
   }
 }
 @media (min-width: 1440px) {
