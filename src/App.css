@@ -1,13 +1,13 @@
 .container_dark {
   background: var(--color_5);
-  height: 100dvh;
+  height: 100vh;
   width: 100vw;
   padding: calc(16rem / 16);
 }
 
 .container_light {
   background: var(--color_4);
-  height: 100dvh;
+  height: 100vh;
   width: 100vw;
   padding: calc(16rem / 16);
 }
