@@ -1,12 +1,12 @@
 .container_dark {
   background: var(--color_5);
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
 }
 
 .container_light {
   background: var(--color_4);
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   padding: calc(16rem / 16);
 }
