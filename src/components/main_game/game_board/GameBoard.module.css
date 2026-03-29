@@ -13,11 +13,11 @@
 }
 @media (min-width: 768px) {
   .game_board_container {
-    gap: calc(126rem / 16);
+    gap: calc(48rem / 16);
   }
 }
 @media (min-width: 1440px) {
   .game_board_container {
-    gap: calc(84rem / 16);
+    gap: calc(48rem / 16);
   }
 }
