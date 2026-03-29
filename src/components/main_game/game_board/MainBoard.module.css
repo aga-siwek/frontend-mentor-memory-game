@@ -23,6 +23,7 @@
   }
 }
 @media (min-width: 768px) {
+  |
   .main_board_container_small {
     width: calc(574rem / 16);
   }
