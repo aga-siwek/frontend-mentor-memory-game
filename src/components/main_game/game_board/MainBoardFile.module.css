@@ -122,5 +122,12 @@
     width: calc(40rem / 16);
     height: calc(40rem / 16);
   }
+
+}
+@media (max-width: 355px) {
+  .main_board_file_container_small {
+    width: calc(49rem / 16);
+    height: calc(49rem / 16);
+  }
 }
 

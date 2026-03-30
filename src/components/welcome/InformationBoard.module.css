@@ -105,3 +105,21 @@
     font-size: calc(26rem / 16);
   }
 }
+
+@media (max-width: 355px) {
+  .single_setting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: calc(4rem / 16);
+    width: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+  .single_setting {
+   flex-wrap: wrap;
+  }
+}

@@ -157,5 +157,13 @@
     gap: calc(16rem / 16);
     width: 100%;
   }
+
+
+  .result_box_header_win {
+    font-size: calc(18rem / 16);
+  }
+  .result_box_text_win {
+    font-size: calc(32rem / 16);
+  }
 }
 
