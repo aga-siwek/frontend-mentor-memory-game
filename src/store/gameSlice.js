@@ -158,6 +158,7 @@ export const gameSlice = createSlice({
         PLAYER3: 0,
         PLAYER4: 0,
       };
+      state.player1TimeSec = 0;
     },
 
     countTime: (state) => {

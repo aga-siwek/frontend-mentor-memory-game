@@ -1,6 +1,7 @@
 .container_dark {
   background: var(--color_5);
   width: 100vw;
+  height: 100vh;
   padding: calc(16rem / 16);
 }
 
@@ -16,7 +17,7 @@
     background: var(--color_5);
     height: 100vh;
     width: 100%;
-    padding: calc(8rem / 16);
+    padding: calc(12rem / 16);
   }
 }
 
@@ -24,7 +25,17 @@
   .container_light {
     display: flex;
     flex-direction: column;
+    padding: calc(48rem / 16);
   }
 }
 @media (min-width: 1440px) {
+}
+
+@media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {
+  .container_dark {
+    background: var(--color_5);
+    height: 100vh;
+    width: 100%;
+    padding: calc(12rem / 16);
+  }
 }
