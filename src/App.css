@@ -12,6 +12,23 @@
   padding: calc(16rem / 16);
 }
 
+.test_icon {
+  fill: white;
+  width: 56px;
+  height: 56px;
+  color: white;
+
+}
+
+.test_icon svg path {
+  fill: white !important; /* wymuszenie koloru na ścieżkach */
+}
+
+.test_text {
+  font-size: 16px;
+  color: white;
+}
+
 @media (orientation: landscape) and (min-width: 320px) and (max-width: 767px) {
   .container_dark {
     background: var(--color_5);

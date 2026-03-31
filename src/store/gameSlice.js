@@ -190,7 +190,6 @@ export const gameSlice = createSlice({
 
     chooseGridSize: (state, action) => {
       state.gridSize = action.payload;
-      console.log("grid zise from chooseGridsieze", state.gridSize);
       if (state.gridSize === GRID_SIZE.SMALL) {
         state.board = [
           [null, null, null, null],

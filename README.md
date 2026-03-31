@@ -21,20 +21,25 @@ in the fewest moves or fastest time. Suitable for all ages and playable on any d
 ### View
 
 Welcome
+
 ![memory (7).png](src/assets/memory%20%287%29.png)
 
 Game - grid 4x4, number, 1 player
+
 ![memory (5).png](src/assets/memory%20%285%29.png)
 
 Game - grid 6x6, icon, 3 players
+
 ![memory (3).png](src/assets/memory%20%283%29.png)
 
 
 Result
+
 ![memory (1).png](src/assets/memory%20%281%29.png)
 ![memory (2).png](src/assets/memory%20%282%29.png)
 
 Pause (only mobile version)
+
 ![memory (8).png](src/assets/memory%20%288%29.png)
 
 #### Gameplay Overview
@@ -51,7 +56,7 @@ How to install project:
 
 ```
 git clone https://github.com/aga-siwek/frontend-mentor-memory-game
-cd hangman-game
+cd frontend-mentor-memory-game
 npm install
 npm run dev
 ```

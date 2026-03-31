@@ -5,7 +5,7 @@ import bugIcon from "../../../assets/bug.svg";
 import cameraIcon from "../../../assets/camera.svg";
 import carIcon from "../../../assets/car.svg";
 import cloudIcon from "../../../assets/cloud.svg";
-import flaskIcon from "../../../assets/book.svg";
+import flaskIcon from "../../../assets/flask.svg";
 import futbolIcon from "../../../assets/futbol.svg";
 import handSporkIcon from "../../../assets/hand-spork.svg";
 import heartIcon from "../../../assets/heart.svg";
@@ -250,6 +250,7 @@ function MainBoardFile({
     >
       <div className={`${contentStyle()}`}>{showContent()}</div>
     </button>
+
   );
 }
 

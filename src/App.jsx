@@ -4,6 +4,7 @@ import Welcome from "./components/welcome/Welcome.jsx";
 import MainGame from "./components/main_game/MainGame.jsx";
 import { useSelector } from "react-redux";
 
+
 function App() {
   const gameState = useSelector((state) => state.game.gameState);
   const backgroundStyle = () => {
